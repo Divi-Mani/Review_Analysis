@@ -1,12 +1,29 @@
 # Review Analysis (NLP Project)
 
-This project leverages Natural Language Processing (NLP) techniques to analyze customer reviews. It includes text summarization, aspect-based sentiment analysis, and keyword extraction. The goal is to extract meaningful insights from user feedback and provide structured summaries for easy understanding.
+This project uses **Natural Language Processing (NLP)** techniques to analyze customer reviews. It performs:
+
+-  Text Summarization  
+-  Sentiment Analysis  
+-  Keyword Extraction
+
+  The output is saved in a structured CSV file to help stakeholders understand key insights from customer feedback.
 
 ## Features
-- **Text Summarization:** Condenses lengthy customer reviews into concise summaries.
-- **Sentiment Analysis:** Analyzes the sentiment (positive/negative/neutral) expressed in reviews.
-- **Keyword Extraction:** Extracts relevant keywords from reviews using Named Entity Recognition (NER).
-- **CSV Output:** Generates a structured CSV file with summaries, sentiment scores, and keywords for each review.
+- **🔍 Text Summarization**  
+  Condenses long customer reviews into short summaries using pre-trained NLP models.
+
+- **😊 Sentiment Analysis**  
+  Detects sentiment polarity (positive, negative, neutral) with a score between -1 (negative) to +1 (positive).
+
+- **🏷️ Keyword Extraction**  
+  Identifies key entities and terms using Named Entity Recognition (NER).
+
+- **📁 CSV Output**  
+  Creates a structured CSV file with:
+  - Original Review  
+  - Summarized Review  
+  - Sentiment Score  
+  - Extracted Keywords  
 
 
 ## Installation
