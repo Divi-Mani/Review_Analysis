@@ -1,14 +1,17 @@
-# Review Analysis (NLP Project)
+# 📊 Review Analysis – NLP Project
 
 This project uses **Natural Language Processing (NLP)** techniques to analyze customer reviews. It performs:
 
--  Text Summarization  
--  Sentiment Analysis  
--  Keyword Extraction
+- ✅ Text Summarization  
+- ✅ Sentiment Analysis  
+- ✅ Keyword Extraction  
 
-  The output is saved in a structured CSV file to help stakeholders understand key insights from customer feedback.
+The output is saved in a structured CSV file to help stakeholders understand key insights from customer feedback.
 
-## Features
+---
+
+## 🚀 Features
+
 - **🔍 Text Summarization**  
   Condenses long customer reviews into short summaries using pre-trained NLP models.
 
@@ -25,63 +28,93 @@ This project uses **Natural Language Processing (NLP)** techniques to analyze cu
   - Sentiment Score  
   - Extracted Keywords  
 
+---
 
-## Installation
+## ⚙️ Installation
 
-### 1. Clone the repository
-      git clone https://github.com/yourusername/Review-Analysis-NLP-Project.git
-      cd Review-Analysis-NLP-Project
+### 1. Clone the Repository
 
-### 2. Set up a virtual environment
-      python -m venv venv
-      source venv/bin/activate   # On Windows, use venv\Scripts\activate
+```bash
+git clone https://github.com/yourusername/Review-Analysis-NLP-Project.git
+cd Review-Analysis-NLP-Project
+```
 
-### 3.Install required dependencies
-      pip install -r requirements.txt
+### 2. Set Up a Virtual Environment
 
-## How to Use:
+```bash
+python -m venv venv
+source venv/bin/activate     # Linux/Mac
+venv\Scripts\activate        # Windows
+```
 
-### 1.Data Preparation:
-  Place your customer reviews in a text file (sample_reviews.txt) in the data/ directory. Each review should be on a new line.
-  
-### 2. Run the Analysis:
-  To start the review analysis, execute the following command:
-        `python code/review_analysis.py`
-### 3.Output:
-The script will print the results in the terminal and save them to a analysis_results.csv file in the root directory. The CSV will contain:
+### 3. Install Dependencies
 
--Original Review
+```bash
+pip install -r requirements.txt
+```
 
--Summarized Review
+---
 
--Sentiment Score (from -1 to 1, where 1 is positive, -1 is negative, and 0 is neutral)
+## 📦 How to Use
 
--Extracted Keywords
+### 1. Prepare Input Data
 
-## Files and Functions
-### 1. code/preprocess.py
-Contains the preprocessing logic for cleaning and preparing the reviews. The reviews are tokenized, converted to lowercase, and stopwords are removed.
+- Create a file named `sample_reviews.txt` under the `data/` directory.
+- Add customer reviews, one per line.
 
-### 2. codr/review_analysis.py
-The main script for:
+Example:
 
--Summarizing reviews.
+```
+The product quality is excellent and delivery was super fast!
+Terrible customer support. Would not recommend.
+```
 
--Performing sentiment analysis.
+### 2. Run the Analysis Script
 
--Extracting keywords.
+```bash
+python code/review_analysis.py
+```
 
--Generating and saving the analysis results.
-### 3. data/reviews.txt
-A sample file with customer reviews. You can replace this file with your own dataset.
-### 4. requirements.txt
-This file contains the Python dependencies required to run the project. The key libraries are:
--nltk
+### 3. Output
 
--spacy
+- The terminal will display the summarized analysis.
+- Results will be saved in `analysis_results.csv` in the project root directory.
 
--transformers
+---
 
--pandas
+## 📁 Project Structure
 
--textblob
+```
+Review-Analysis-NLP-Project/
+│
+├── code/
+│   ├── preprocess.py           # Preprocessing logic (tokenization, stopword removal, etc.)
+│   └── review_analysis.py      # Main script for summarization, sentiment, keywords
+│
+├── data/
+│   └── sample_reviews.txt      # Sample customer reviews input
+│
+├── analysis_results.csv        # Auto-generated results (after running script)
+├── requirements.txt            # Required Python packages
+└── README.md                   # Project documentation
+```
+
+---
+
+## 🧠 Dependencies
+
+The key Python libraries used are:
+
+- [`nltk`](https://www.nltk.org/) – Tokenization, stopword filtering  
+- [`spacy`](https://spacy.io/) – Named Entity Recognition (NER)  
+- [`transformers`](https://huggingface.co/transformers/) – Text summarization  
+- [`textblob`](https://textblob.readthedocs.io/) – Sentiment analysis  
+- [`pandas`](https://pandas.pydata.org/) – Dataframe handling & CSV export  
+
+Install them via:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
