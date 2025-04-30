@@ -29,7 +29,7 @@ This project leverages Natural Language Processing (NLP) techniques to analyze c
   
 ### 2. Run the Analysis:
   To start the review analysis, execute the following command:
-        `python src/review_analysis.py`
+        `python code/review_analysis.py`
 ### 3.Output:
 The script will print the results in the terminal and save them to a analysis_results.csv file in the root directory. The CSV will contain:
 
@@ -42,10 +42,10 @@ The script will print the results in the terminal and save them to a analysis_re
 -Extracted Keywords
 
 ## Files and Functions
-### 1. src/preprocess.py
+### 1. code/preprocess.py
 Contains the preprocessing logic for cleaning and preparing the reviews. The reviews are tokenized, converted to lowercase, and stopwords are removed.
 
-### 2. src/review_analysis.py
+### 2. codr/review_analysis.py
 The main script for:
 
 -Summarizing reviews.
