@@ -2,15 +2,15 @@
 
 This project uses **Natural Language Processing (NLP)** techniques to analyze customer reviews. It performs:
 
-- ✅ Text Summarization  
-- ✅ Sentiment Analysis  
-- ✅ Keyword Extraction  
+✅ Text Summarization  
+✅ Sentiment Analysis  
+✅ Keyword Extraction  
 
 The output is saved in a structured CSV file to help stakeholders understand key insights from customer feedback.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **🔍 Text Summarization**  
   Condenses long customer reviews into short summaries using pre-trained NLP models.
@@ -30,7 +30,7 @@ The output is saved in a structured CSV file to help stakeholders understand key
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 How to Use
+## How to Use
 
 ### 1. Prepare Input Data
 
@@ -82,7 +82,7 @@ python code/review_analysis.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Review-Analysis-NLP-Project/
@@ -101,7 +101,7 @@ Review-Analysis-NLP-Project/
 
 ---
 
-## 🧠 Dependencies
+## Dependencies
 
 The key Python libraries used are:
 
