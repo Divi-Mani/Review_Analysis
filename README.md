@@ -12,16 +12,16 @@ The output is saved in a structured CSV file to help stakeholders understand key
 
 ##  Features
 
-- **🔍 Text Summarization**  
+- ** Text Summarization**  
   Condenses long customer reviews into short summaries using pre-trained NLP models.
 
-- **😊 Sentiment Analysis**  
+- ** Sentiment Analysis**  
   Detects sentiment polarity (positive, negative, neutral) with a score between -1 (negative) to +1 (positive).
 
-- **🏷️ Keyword Extraction**  
+- ** Keyword Extraction**  
   Identifies key entities and terms using Named Entity Recognition (NER).
 
-- **📁 CSV Output**  
+- ** CSV Output**  
   Creates a structured CSV file with:
   - Original Review  
   - Summarized Review  
